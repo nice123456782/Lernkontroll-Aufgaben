@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GA Bestellung</title>
+<link rel="stylesheet" href="Aufgabe4.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Aufgabe 1</a></li>
+          <li><a href="Aufgabe2.html">Aufgabe 2</a></li>
+          <li><a href="Aufgabe3.html">Aufgabe 3</a></li>
+          <li><a href="Aufgabe4.html">Aufgabe 4</a></li>
+        </ul>
+      </nav>
+
+<div class="container">
+  <h1>GA Bestellung</h1>
+
+  <form id="orderForm" class="order-form">
+    <div class="form-group">
+      <label for="gaType">Typ des Generalabonnements:</label>
+      <select id="gaType" name="gaType" class="form-control">
+        <option value="1stClass">1. Klasse</option>
+        <option value="2ndClass">2. Klasse</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pricePerMonth">Preis pro Monat:</label>
+      <input type="text" id="pricePerMonth" name="pricePerMonth" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="pricePerYear">Preis pro Jahr:</label>
+      <input type="text" id="pricePerYear" name="pricePerYear" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Bestellen</button>
+  </form>
+</div>
+
+<script src="Aufgabe4.js"></script>
+
+</body>
+</html>
